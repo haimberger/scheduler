@@ -2,3 +2,6 @@
 !.gitignore
 
 node_modules/
+
+data/*
+!data/example.json

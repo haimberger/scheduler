@@ -1,0 +1,138 @@
+{
+  "recurring": [
+    {
+      "title": "check messages and notifications",
+      "time": "0 9,10,11,12,14,15,16,18 * * 1-5"
+    },
+    {
+      "title": "lunch break",
+      "time": "0 13 * * 1-5"
+    },
+    {
+      "title": "clean up",
+      "time": "0 17 * * 1-5"
+    },
+    {
+      "title": "ceasefire",
+      "time": "0 19 * * 1-5"
+    }
+  ],
+  "activeTaskID": 4,
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Suspendisse lorem mi, pharetra non nibh nec, hendrerit tincidunt diam.",
+      "link": "http://www.example.com/suspendisse",
+      "assigner": "Alice",
+      "duration": "1 hour",
+      "canPreempt": false,
+      "isCancelled": false,
+      "isCompleted": true,
+      "creationTime": "2019-01-25 09:00",
+      "activeIntervals": [
+        { "begin": "2019-01-25 09:01", "end": "2019-01-25 10:13" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Nunc pellentesque ornare ipsum id vehicula. Aliquam enim ligula.",
+      "link": "http://www.example.com/nunc",
+      "assigner": "Bob",
+      "duration": "1 hour",
+      "canPreempt": false,
+      "isCancelled": false,
+      "isCompleted": true,
+      "creationTime": "2019-01-25 09:00",
+      "activeIntervals": [
+        { "begin": "2019-01-25 10:13", "end": "2019-01-25 10:56" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sed a lacus gravida, ornare ligula nec.",
+      "link": "http://www.example.com/sed",
+      "assigner": "Alice",
+      "duration": "4 hours",
+      "canPreempt": false,
+      "isCancelled": false,
+      "isCompleted": true,
+      "creationTime": "2019-01-25 09:00",
+      "activeIntervals": [
+        { "begin": "2019-01-25 10:56", "end": "2019-01-25 13:00" },
+        { "begin": "2019-01-25 13:36", "end": "2019-01-25 15:00" },
+        { "begin": "2019-01-25 15:06", "end": "2019-01-25 15:40" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Lorem ipsum dolor sit amet.",
+      "link": "http://www.example.com/lorem",
+      "assigner": "Alice",
+      "duration": "4 hours",
+      "canPreempt": false,
+      "isCancelled": false,
+      "isCompleted": false,
+      "creationTime": "2019-01-25 09:00",
+      "activeIntervals": [
+        { "begin": "2019-01-25 15:40", "end": "2019-01-25 16:00" },
+        { "begin": "2019-01-25 16:11" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Donec sit amet fermentum lorem, at euismod lectus.",
+      "link": "http://www.example.com/donec",
+      "assigner": "Carol",
+      "duration": "3 hours",
+      "canPreempt": false,
+      "isCancelled": false,
+      "isCompleted": false,
+      "creationTime": "2019-01-25 09:00",
+      "startTime": "2019-01-28 10:30"
+    },
+    {
+      "id": 6,
+      "title": "Nullam sit amet augue risus.",
+      "link": "http://www.example.com/nullam",
+      "assigner": "Bob",
+      "duration": "2 hours",
+      "canPreempt": true,
+      "isCancelled": false,
+      "isCompleted": false,
+      "creationTime": "2019-01-25 09:00"
+    },
+    {
+      "id": 7,
+      "title": "Pellentesque accumsan, quam sed condimentum dapibus, nibh tellus.",
+      "link": "http://www.example.com/pellentesque",
+      "assigner": "Alice",
+      "duration": "6 hours",
+      "canPreempt": false,
+      "isCancelled": false,
+      "isCompleted": false,
+      "creationTime": "2019-01-25 09:00"
+    },
+    {
+      "id": 8,
+      "title": "Morbi non varius ligula.",
+      "link": "http://www.example.com/morbi",
+      "assigner": "Dave",
+      "duration": "2 hours",
+      "canPreempt": false,
+      "isCancelled": false,
+      "isCompleted": false,
+      "creationTime": "2019-01-25 09:00"
+    },
+    {
+      "id": 9,
+      "title": "Fusce tempus consectetur orci a vulputate.",
+      "link": "http://www.example.com/fusce",
+      "assigner": "Alice",
+      "duration": "8 hours",
+      "canPreempt": false,
+      "isCancelled": true,
+      "isCompleted": false,
+      "creationTime": "2019-01-25 09:00"
+    }
+  ]
+}
