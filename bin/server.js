@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const debug = require('debug')('scheduler:server');
 const http = require('http');
 
